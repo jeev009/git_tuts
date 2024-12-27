@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Personal Portifolio</title>
+</head>
+<body>
+       
+<!-- Header design -->
+<header class="header">
+    <a href="#" class="logo">Portifolio</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portifolio">Portifolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- Home section  -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hi, Myself</h3>
+        <h1>Jeevan Raju</h1>
+        <h3> <span>And I'm a Frontend Developer</span></h3>
+        <p>Iam a passionate Frontend Developer with a focus on building responsive, user-friendly, and visually appealing websites. I specialize in crafting seamless digital experiences using the latest web technologies with a strong understanding of design principles and a keen eye for detail, I strive to bring designs to life and create engaging, accessible web applications.</p>
+        <div class="social-media">
+            <a href="#" id="anc"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" id="anc"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" id="anc"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" id="anc"><i class="fa-brands fa-linkedin-in"></i></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+    </div>
+
+    <div class="home-img">
+        <img id="image" src="portifolio.jpg" alt="img">
+    </div>
+</section>
+
+<!-- About section  -->
+ <section class="about" id="about">
+    <div class="about-img" id="aboutImg">
+        <img src="aboutpic.png" class="aboutpic" alt="about-image">
+    </div>
+    <div class="about-content">
+    <h2 class="heading">ABOUT <span id="span">Me</span></h2>
+    <h3>Frontend Developer</h3>
+    <p>I believe in the power of great design combined with cutting-edge technology to create meaningful user experiences. Every project I work on is an opportunity to improve how users interact with the web, and I am always eager to learn new techniques and tools to stay ahead of the curve.</p>
+    <a href="#" class="btn">Read More</a>    
+</div>
+ </section>
+
+<!-- Services  section  -->
+  <section class="services" id="services">
+    <h1 class="heading"><span id="span">My</span> Services</h1>
+    <div class="service-container">
+      <div class="box" data-aos="flip-right">
+        <img src="code-solid.svg" alt="">
+        <h2 class="web">Web Development</h2>
+        <p>Welcome to my web development portfolio! I am a passionate and skilled web developer with expertise in creating responsive, user-friendly, and visually appealing websites and web applications.</p>
+      </div>
+    
+      <div class="box" data-aos="flip-down">
+        <img src="palette-solid.svg" alt="">
+        <h2 class="web">UI/UX Designing </h2>
+        <p>Welcome to my web development portfolio! I am a passionate and skilled web developer with expertise in creating responsive, user-friendly, and visually appealing websites and web applications.</p>
+      </div>
+    
+      <div class="box" data-aos="flip-left">
+        <img src="android-brands-solid.svg" alt="">
+        <h2 class="web">App Development</h2>
+        <p>Welcome to my web development portfolio! I am a passionate and skilled web developer with expertise in creating responsive, user-friendly, and visually appealing websites and web applications.</p>
+      </div>
+    </div>
+    
+    </section>
+
+    <!-- Portifolio  section  -->
+
+    <section id="portifolio">
+      <div class="container">
+          <h1 id="head">My <span id="span">Projects</span></h1>
+          <div class="portifolio-grid">
+              <div class="portifolio-card">
+                  <img src="img1.jpg" alt="Project 1">
+                  <h3>Project 1</h3>
+                  <p>A brief description of the project and the technologies used.</p>
+                  <a href="#" class="portifolio-link">Learn More</a>
+              </div>
+              <div class="portifolio-card">
+                  <img src="img2.jpg" alt="Project 2">
+                  <h3>Project 2</h3>
+                  <p>A brief description of the project and the technologies used.</p>
+                  <a href="#" class="portifolio-link">Learn More</a>
+              </div>
+              <div class="portifolio-card">
+                  <img src="img3.jpg" alt="Project 3">
+                  <h3>Project 3</h3>
+                  <p>A brief description of the project and the technologies used.</p>
+                  <a href="#" class="portifolio-link">Learn More</a>
+              </div>
+          </div>
+      </div>
+  </section>
+
+       <!-- Contact  section  -->
+
+       <section id="contact">
+        <div class="container">
+            <h2 id="head"><span id="span">Get in </span>Touch</h2>
+            <form id="contact-form" action="https://formsubmit.co/el/yiruye" target="_blank">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+      
+    <footer>
+      <div class="container">
+          <p>&copy; 2024 Jeevan Raju. All rights reserved.</p>
+      </div>
+  </footer>
+</body>
+</html>
